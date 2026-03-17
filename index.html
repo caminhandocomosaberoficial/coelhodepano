@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+<script>
+  window.pixelId = "69b84a47c6b0cbf522fa414c";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molde Coelhinho de Páscoa | PDF para Costurar em Casa</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #D98E8E;
+            --secondary: #F8E6D8;
+            --light-bg: #FFF8F3;
+            --soft-pink: #FDEEE6;
+            --text-dark: #3a3a3a;
+            --text-muted: #666;
+            --white: #ffffff;
+            --shadow: 0 10px 30px rgba(217, 142, 142, 0.15);
+            --border-radius: 24px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--white);
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: var(--border-radius);
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 20px 24px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 8px 20px rgba(217, 142, 142, 0.35);
+            border: none;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .btn:active {
+            transform: scale(0.98);
+        }
+
+        .hero {
+            background-color: var(--light-bg);
+            text-align: center;
+            padding: 80px 0 60px;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+        }
+
+        .hero h1 {
+            font-size: 2.2rem;
+            color: var(--text-dark);
+            margin-bottom: 10px;
+        }
+
+        .hero .subtitle {
+            font-size: 1.15rem;
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 30px;
+            display: block;
+        }
+
+        .hero-text {
+            font-size: 1.05rem;
+            margin-bottom: 40px;
+            color: var(--text-muted);
+        }
+
+        .hero-text p {
+            margin-bottom: 15px;
+        }
+
+        .hero-info-points {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .video-short {
+            position: relative;
+            width: 100%;
+            max-width: 360px;
+            margin: 0 auto 30px;
+            aspect-ratio: 9 / 16;
+            overflow: hidden;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            background: #000;
+        }
+
+        .video-short video {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border: 0;
+        }
+
+        .receive-section {
+            text-align: center;
+        }
+
+        .receive-section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .receive-text {
+            color: var(--text-muted);
+            margin-bottom: 40px;
+        }
+
+        .slider-container {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            margin: 20px 0;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+        }
+
+        .slider-track {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            cursor: grab;
+        }
+
+        .slider-track:active {
+            cursor: grabbing;
+        }
+
+        .slide {
+            min-width: 100%;
+        }
+
+        .slide img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 0;
+        }
+
+        .content-list {
+            margin-top: 40px;
+            background: var(--light-bg);
+            padding: 30px;
+            border-radius: var(--border-radius);
+            list-style: none;
+        }
+
+        .content-list li {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            color: var(--text-dark);
+        }
+
+        .content-list li:last-child { margin-bottom: 0; }
+
+        .icon-bullet {
+            margin-right: 15px;
+            font-size: 1.2rem;
+        }
+
+        .feature-block {
+            padding: 40px 0;
+        }
+
+        .feature-block h2 {
+            font-size: 1.6rem;
+            margin-bottom: 15px;
+        }
+
+        .feature-block p {
+            color: var(--text-muted);
+            margin-bottom: 25px;
+        }
+
+        .quote-box {
+            border-left: 4px solid var(--primary);
+            padding-left: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            color: var(--text-dark);
+        }
+
+        .emotional-block {
+            background-color: var(--secondary);
+            text-align: center;
+            padding: 80px 0;
+            margin: 40px 0;
+        }
+
+        .emotional-block h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: var(--text-dark);
+        }
+
+        .emotional-block p {
+            font-size: 1.1rem;
+            color: var(--text-dark);
+            opacity: 0.9;
+        }
+
+        .testimonials h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .testimonial-card {
+            background: var(--light-bg);
+            padding: 30px;
+            border-radius: var(--border-radius);
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .testimonial-profile {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .testimonial-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: var(--secondary);
+            margin-right: 15px;
+            object-fit: cover;
+        }
+
+        .testimonial-name {
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+
+        .offer-section {
+            background-color: var(--soft-pink);
+            border-radius: 40px;
+            padding: 60px 24px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .offer-section h2 { margin-bottom: 10px; }
+        .offer-section .sub { color: var(--text-muted); margin-bottom: 30px; display: block; }
+
+        .price-tag {
+            margin: 30px 0;
+        }
+
+        .old-price {
+            text-decoration: line-through;
+            color: var(--text-muted);
+            font-size: 1.2rem;
+        }
+
+        .new-price {
+            font-size: 4rem;
+            color: var(--primary);
+            font-weight: 800;
+            display: block;
+            margin-top: -10px;
+        }
+
+        .offer-includes {
+            list-style: none;
+            text-align: left;
+            display: inline-block;
+            margin: 30px 0;
+        }
+
+        .offer-includes li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+        }
+
+        .offer-includes li::before {
+            content: '✓';
+            color: #4CAF50;
+            margin-right: 10px;
+            font-weight: 900;
+        }
+
+        .faq h2 { text-align: center; margin-bottom: 40px; }
+
+        .faq-item {
+            border-bottom: 1px solid var(--soft-pink);
+            padding: 20px 0;
+        }
+
+        .faq-question {
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-answer {
+            padding-top: 15px;
+            color: var(--text-muted);
+            display: none;
+        }
+
+        footer {
+            background-color: #f9f9f9;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        footer p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            max-width: 340px;
+            margin: 0 auto;
+        }
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 { font-size: 1.8rem; }
+            .new-price { font-size: 3.5rem; }
+            .slide img { height: 320px; }
+            .video-short { max-width: 320px; }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="container">
+            <h1 class="fade-in">Coelhinho Artesanal de Páscoa 🐰</h1>
+            <span class="subtitle fade-in">Molde em PDF com passo a passo para costurar um coelho encantador com roupinhas removíveis ✂️🧵</span>
+            
+            <div class="hero-text fade-in">
+                <p>Crie um coelhinho artesanal de <strong>33 cm</strong> com acabamento delicado e visual encantador, perfeito para a Páscoa e para presentear alguém especial.</p>
+                <p>Com este molde digital, você recebe o passo a passo completo para costurar o coelho e duas roupinhas fofas: <strong>vestido com faixa</strong> e <strong>macacão com cachecol</strong>.</p>
+                <p>Em vez de um presente comum, uma peça feita por você. 🎁<br>
+                   Em vez de algo descartável, um carinho que pode ser guardado por anos. ✨<br>
+                   Em vez de complicação, um projeto lindo para costurar em casa. 🏡</p>
+            </div>
+
+            <div class="video-short fade-in">
+                <video autoplay muted loop playsinline controlslist="nodownload noplaybackrate" preload="metadata">
+                    <source src="coelho.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeo HTML5.
+                </video>
+            </div>
+
+            <a href="#comprar" class="btn fade-in">Quero receber meu molde agora 🐰</a>
+
+            <div class="hero-info-points fade-in">
+                <span>📩 Download imediato após a compra</span>
+                <span>🧵 Tutorial ilustrado passo a passo</span>
+                <span>🎁 Perfeito para presente, decoração ou venda</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="receive-section">
+        <div class="container">
+            <h2 class="fade-in">O que você vai receber</h2>
+            <p class="receive-text fade-in">
+                Um projeto completo para transformar tecido em um coelhinho artesanal encantador — com molde em tamanho real, roupas removíveis e tutorial detalhado.<br><br>
+                <strong>Fácil de seguir. Lindo de presentear. Perfeito para a Páscoa.</strong>
+            </p>
+
+            <div class="slider-container fade-in">
+                <div class="slider-track" id="sliderTrack">
+                    <div class="slide"><img src="1.png" alt="Capa do molde e tutorial do coelhinho"></div>
+                    <div class="slide"><img src="2.png" alt="Coelhinhos com roupinhas prontas"></div>
+                    <div class="slide"><img src="3.png" alt="Coelhinho com macacão rosa"></div>
+                    <div class="slide"><img src="4.png" alt="Materiais e coelhinhos em processo"></div>
+                    <div class="slide"><img src="5.png" alt="Coelhinhos com vestidos"></div>
+                </div>
+            </div>
+
+            <ul class="content-list fade-in">
+                <li><span class="icon-bullet">📄</span> Molde digital em PDF em tamanho real</li>
+                <li><span class="icon-bullet">🐰</span> Passo a passo completo para costurar o coelho</li>
+                <li><span class="icon-bullet">👗</span> Molde do vestido sem mangas + faixa de cabelo</li>
+                <li><span class="icon-bullet">🧣</span> Molde do macacão + cachecol removível</li>
+                <li><span class="icon-bullet">🪡</span> Lista ilustrada de materiais e ferramentas</li>
+                <li><span class="icon-bullet">🖨️</span> Guia de impressão + medidas em cm e polegadas</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="feature-block">
+        <div class="container">
+            <h2 class="fade-in">Ideal para presentear na Páscoa</h2>
+            <p class="fade-in">Faça um presente delicado, criativo e feito à mão para crianças, netos, afilhados ou alguém especial que ama peças artesanais.</p>
+            
+            <div class="quote-box fade-in">
+                “Não é só um coelhinho. É um presente feito com carinho, tempo e intenção.”
+            </div>
+            
+            <img src="8.png" alt="Coelhinha artesanal com roupa florida" class="fade-in">
+        </div>
+    </section>
+
+    <section class="feature-block">
+        <div class="container">
+            <h2 class="fade-in">Perfeito para quem ama costurar</h2>
+            <p class="fade-in">Um projeto prazeroso para quem gosta de artesanato e quer criar uma peça linda em casa, mesmo sem ser profissional.</p>
+            <img src="10.png" alt="Página do tutorial com tesoura e linhas" class="fade-in">
+        </div>
+    </section>
+
+    <section class="feature-block">
+        <div class="container">
+            <h2 class="fade-in">Decore, presenteie ou até venda</h2>
+            <p class="fade-in">Use o molde para criar um coelhinho encantador para decoração de Páscoa, lembrancinhas especiais ou até para vender peças artesanais personalizadas.</p>
+            <img src="4.png" alt="Coelhinhos artesanais sobre a mesa" class="fade-in">
+        </div>
+    </section>
+
+    <div class="emotional-block">
+        <div class="container">
+            <h2 class="fade-in">Mais do que um molde — é um projeto artesanal que vira lembrança.</h2>
+            <p class="fade-in">Crie um coelhinho fofo, com roupinhas removíveis, e transforme tecido em afeto nesta Páscoa. 💛</p>
+        </div>
+    </div>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="fade-in">Quem ama costura vai se encantar</h2>
+            
+            <div class="testimonial-card fade-in">
+                <p>"Eu estava procurando algo especial para fazer na Páscoa e esse molde me surpreendeu. O passo a passo é muito fácil de acompanhar e o coelhinho ficou lindo pronto."</p>
+                <div class="testimonial-profile">
+                    <img src="5.png" class="testimonial-avatar" alt="Cliente satisfeita 1">
+                    <span class="testimonial-name">— Patrícia S.</span>
+                </div>
+            </div>
+
+            <div class="testimonial-card fade-in">
+                <p>"Gostei porque já vem tudo muito bem explicado. Fiz a primeira versão para presentear e já quero costurar outros com roupinhas diferentes."</p>
+                <div class="testimonial-profile">
+                    <img src="3.png" class="testimonial-avatar" alt="Cliente satisfeita 2">
+                    <span class="testimonial-name">— Renata M.</span>
+                </div>
+            </div>
+
+            <div class="testimonial-card fade-in">
+                <p>"Esse tipo de molde é ótimo para quem quer criar peças delicadas e até vender por encomenda na Páscoa. O resultado fica com cara de produto premium."</p>
+                <div class="testimonial-profile">
+                    <img src="2.png" class="testimonial-avatar" alt="Cliente satisfeita 3">
+                    <span class="testimonial-name">— Aline C.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="comprar" class="container">
+        <div class="offer-section fade-in">
+            <h2>Garanta agora seu molde do coelhinho 🐰</h2>
+            <span class="sub">Projeto perfeito para preparar presentes e peças artesanais antes da Páscoa 🎁</span>
+            
+            <div class="price-tag">
+                <span class="old-price">De R$97,00</span>
+                <span class="new-price">R$27</span>
+            </div>
+
+            <ul class="offer-includes">
+                <li>Molde completo do coelho em PDF</li>
+                <li>Vestido + faixa + macacão + cachecol</li>
+                <li>Tutorial ilustrado com dezenas de etapas</li>
+                <li>Download imediato após o pagamento</li>
+                <li>Arquivo para imprimir quantas vezes quiser</li>
+                <li>Garantia de 7 dias</li>
+            </ul>
+
+            <a href="SEU-LINK-DE-CHECKOUT-AQUI" class="btn">Quero fazer meu coelhinho agora ✂️</a>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2 class="fade-in">Perguntas frequentes</h2>
+            
+            <div class="faq-item fade-in">
+                <div class="faq-question">O que eu recebo após a compra? <span>+</span></div>
+                <div class="faq-answer">Você recebe um arquivo digital em PDF com o molde em tamanho real, tutorial ilustrado, lista de materiais, guia de impressão e instruções para costurar o coelho e as roupinhas.</div>
+            </div>
+
+            <div class="faq-item fade-in">
+                <div class="faq-question">Esse produto é físico? <span>+</span></div>
+                <div class="faq-answer">Não. Este é um produto digital. Nada será enviado pelos Correios. O download fica disponível logo após a compra.</div>
+            </div>
+
+            <div class="faq-item fade-in">
+                <div class="faq-question">É difícil de fazer? <span>+</span></div>
+                <div class="faq-answer">O molde é indicado para iniciantes confiantes, com noções básicas de costura à máquina, costura à mão e bordado. O tutorial é bem ilustrado e fácil de acompanhar.</div>
+            </div>
+
+            <div class="faq-item fade-in">
+                <div class="faq-question">Qual o tamanho do coelho pronto? <span>+</span></div>
+                <div class="faq-answer">O coelho pronto mede aproximadamente 33 cm de altura, sem contar as orelhas.</div>
+            </div>
+
+            <div class="faq-item fade-in">
+                <div class="faq-question">Posso imprimir mais de uma vez? <span>+</span></div>
+                <div class="faq-answer">Sim. Você pode imprimir o arquivo quantas vezes quiser para uso pessoal e costurar outras versões do coelhinho.</div>
+            </div>
+
+            <div class="faq-item fade-in">
+                <div class="faq-question">Posso fazer para vender? <span>+</span></div>
+                <div class="faq-answer">O molde é excelente para quem quer produzir peças artesanais. Apenas confira a política de uso do criador caso queira comercializar em escala.</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h3>Molde Coelhinho Artesanal</h3>
+            <p style="margin: 15px auto;">Um projeto encantador para costurar, presentear e lucrar nesta Páscoa.</p>
+            <p>© 2026 — Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        const observerOptions = { threshold: 0.1 };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+        const track = document.getElementById('sliderTrack');
+        const slides = document.querySelectorAll('.slide');
+        let index = 0;
+
+        function nextSlide() {
+            index++;
+            if (index >= slides.length) index = 0;
+            track.style.transform = `translateX(-${index * 100}%)`;
+        }
+
+        let autoSlide = setInterval(nextSlide, 3500);
+
+        let startX = 0;
+        track.addEventListener('touchstart', (e) => {
+            startX = e.touches[0].clientX;
+            clearInterval(autoSlide);
+        });
+
+        track.addEventListener('touchend', (e) => {
+            let endX = e.changedTouches[0].clientX;
+            if (startX > endX + 50) {
+                index = (index + 1) % slides.length;
+            } else if (startX < endX - 50) {
+                index = (index - 1 + slides.length) % slides.length;
+            }
+            track.style.transform = `translateX(-${index * 100}%)`;
+            autoSlide = setInterval(nextSlide, 3500);
+        });
+
+        document.querySelectorAll('.faq-question').forEach(item => {
+            item.addEventListener('click', () => {
+                const answer = item.nextElementSibling;
+                const span = item.querySelector('span');
+                const isOpen = answer.style.display === 'block';
+                
+                document.querySelectorAll('.faq-answer').forEach(ans => ans.style.display = 'none');
+                document.querySelectorAll('.faq-question span').forEach(s => s.textContent = '+');
+
+                if (!isOpen) {
+                    answer.style.display = 'block';
+                    span.textContent = '-';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
